@@ -1,0 +1,98 @@
+/* Normalize and Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px; /* Base font size for body */
+}
+
+/* Page Structure */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #1a5a63;
+  color: #e9f1f2;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 1.6rem; /* Size for header text */
+}
+
+nav {
+  margin-top: 12px;
+  font-size: 1.15rem; /* Font size for nav links */
+  text-align: center;
+}
+
+nav a {
+  color: #e9f1f2;
+  text-decoration: none;
+  margin: 0 14px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #a1c8d1;
+}
+
+main {
+  flex-grow: 1;
+  padding: 24px;
+  font-size: 1.25rem; /* Main section font size */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 520px;
+  margin-top: 25px;
+  font-size: 1rem; /* Form input font size */
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #1a5a63;
+  box-shadow: 0 0 5px #1a5a63aa;
+}
+
+button {
+  margin-top: 14px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #1a5a63;
+  color: #f0f6f7;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #145256;
+}
+
+footer {
+  background-color: #e8e8e8;
+  padding: 14px 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+}
